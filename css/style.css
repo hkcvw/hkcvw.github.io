@@ -95,7 +95,7 @@ a:hover {
 /* Title and menu */
 
 .title{
-	font-size: 22pt;
+	font-size: 30pt;
 	margin: 1px;
 }
 
@@ -198,7 +198,7 @@ table {
 	width: 100%;
 }
 
-td, th {
+#scheduleTab td, th {
 	border: 1px solid #dddddd;
 	text-align: left;
 	padding: 8px;
@@ -206,4 +206,16 @@ td, th {
 
 tr:nth-child(even) {
 	background-color: #dddddd;
+}
+
+#venueTab {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 90%;
+}
+
+#venueTab td, th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
 }
